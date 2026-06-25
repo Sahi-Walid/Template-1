@@ -142,12 +142,12 @@ body {
     margin-bottom: 100px;
 }
 
-.UI_UX{
+/* .UI_UX{
     display: flex;
     flex-direction: row;
     align-items: start;
     justify-content: start;
-}
+} */
 
 .services_content{
     display: flex;
@@ -426,4 +426,119 @@ footer span{
     background-color: #2c4755;
     color: #11cab5;
     transform: scale(1.1);
+}
+
+@media(max-width:426px){
+    .navbar{
+        gap: 40px;
+        padding: 20px 20px;
+    }
+    .nav_list{
+        gap: 10px;
+    }
+    .nav_list li a{
+        font-size: 16px;
+    }
+    .logo_img{
+        width: 40px;
+        height: 40px;
+    }
+    .header_of_my_website h1{
+        font-size: 60px;
+    }
+    .header_of_my_website p{
+        font-size: 18px;
+    }
+    .sections{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 10px;
+        gap: 40px;
+    }
+    .section1 , .section2 , .section3{
+        width: 250px;
+    }
+    .section_title{
+        font-size: 80px;
+    }
+    .services_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 50px;
+    }
+    .Services_img{
+        width: 250px;
+        height: 280px;
+        border-radius: 10px;
+    }
+    .Services_container_img{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 20px;
+        gap: 50px;
+    }
+    .Services{
+        height: 150vh;
+    }
+    footer{
+        padding: 20px;
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .Portfolio{
+        height: 200vh;
+    }
+    .portfolio_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .portfolio1 img, .portfolio2 img, .portfolio3 img{
+        width: 350px;
+        height: 220px;
+    }
+    .portfolio1 , .portfolio2 , .portfolio3 {
+        width: 350px;
+        text-align: center;
+    }
+    .portfolio1 h1, .portfolio2 h1, .portfolio3 h1{
+        margin-left: 0px;
+    }
+    .portfolio1 p, .portfolio2 p, .portfolio3 p{
+        margin-left: 0px;
+    }
+    .About{
+        height: 150vh;
+    }
+    .about_content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 50px;
+    }
+    .about_img img{
+        width: 350px;
+        height: 390px;
+    }
+    .about_text{
+        align-items: center;
+        text-align: center;
+    }
+    .Contact{
+        height: 130vh;
+    }
+    .contact_form{
+        padding: 100px 30px;
+    }
+    .name input, .email input, .message textarea{
+        width: 250px;
+    }
 }
